@@ -9,7 +9,7 @@ const SignIn = () => {
   const logGoogleUser = async () => {
     const { user } = await signInWithGooglePopup();
 
-    const userDocRef = createUserDocumentFromAuth(user);
+    const userDocRef = await createUserDocumentFromAuth(user);
   };
 
   return (
