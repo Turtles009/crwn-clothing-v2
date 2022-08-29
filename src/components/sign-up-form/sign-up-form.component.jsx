@@ -72,7 +72,7 @@ const SignUpForm = () => {
           }}
         />
         <FormInput
-          label="E-mail Address"
+          label="E-mail"
           inputOptions={{
             type: "email",
             required: true,
@@ -101,7 +101,7 @@ const SignUpForm = () => {
             value: confirmPassword,
           }}
         />
-        <Button type="submit">Sign Up</Button>
+        <Button type="submit">Sign-Up</Button>
       </form>
     </div>
   );
